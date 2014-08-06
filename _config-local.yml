@@ -1,7 +1,7 @@
 title:            Marit Larsen China
-description:      "Marit Larsen非官方中文粉丝站"
+description:      "Marit Larsen unofficial Chinese fan site"
 logo:             marit.png
-disqus_shortname: hmfaysal
+#disqus_shortname: hmfaysal
 # Assign a default image for your site's header and footer
 default_bg:       100pic.jpg
 search:           true
@@ -23,7 +23,7 @@ owner:
   avatar:         maritlarsenchina.jpg
   email:          mail@maritlarsen.ml
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Marit Larsen China是一个为挪威创作型歌手Marit Larsen建立基于社区驱动、多人维护的非官方中文粉丝站。
+  description:    Marit Larsen China is an unofficial Chinese fan site which is community-maintained and delicated to Norwegian songwriter and singer Marit Larsen.
   # Social networking links used in footer. Update and remove as you like.
   # To register at HMFAYSAL SOCIAL, visit http://social.hmfaysal.tk
   twitter:        MaritChinaFans
@@ -48,7 +48,7 @@ bing_verify:
 # Links to include in footer navigation
 # For external links add external: true
 links:
-  - title: 首页
+  - title: Home
     url: /
     external: false
     icon: home
