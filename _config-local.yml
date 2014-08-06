@@ -1,0 +1,90 @@
+title:            Marit Larsen China
+description:      "Marit Larsen非官方中文粉丝站"
+logo:             marit.png
+disqus_shortname: hmfaysal
+# Assign a default image for your site's header and footer
+default_bg:       100pic.jpg
+search:           true
+share:            true
+# Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
+readtime:         false
+# Turn on or off the fin animations in the header and footer
+animated_fins:	  true
+# Specify the fin color in RGB value
+fin_color:        "255,255,255"
+# Change url to your domain. Leave localhost server or blank when working locally.
+# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same
+# whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
+url:       		   http://127.0.0.1:4000
+
+# Owner/author information
+owner:
+  name:           Marit Larsen China
+  avatar:         maritlarsenchina.jpg
+  email:          mail@maritlarsen.ml
+  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
+  description:    Marit Larsen China是一个为挪威创作型歌手Marit Larsen建立基于社区驱动、多人维护的非官方中文粉丝站。
+  # Social networking links used in footer. Update and remove as you like.
+  # To register at HMFAYSAL SOCIAL, visit http://social.hmfaysal.tk
+  twitter:        MaritChinaFans
+  facebook:       pages/玛丽特拉森中文粉丝站/206784869511705
+  weibo:          u/5234714936
+  #github:         hmfaysal
+  #stackexchange:  https://stackexchange.com/users/3402032/hossain-mohd-faysal
+  #linkedin:       https://www.linkedin.com/pub/firstname-lastname/12/345/678
+  #instagram:
+  #flickr:
+  tumblr:         Marit Larsen China
+  tieba:          marit
+  # For Google Authorship https://plus.google.com/authorship
+  #google_plus:    https://plus.google.com/u/0/102602916593522619858
+
+# Analytics and webmaster tools stuff goes here
+#google_analytics:   UA-39365944-7
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Links to include in footer navigation
+# For external links add external: true
+links:
+  - title: 首页
+    url: /
+    external: false
+    icon: home
+  # - title: English #<i class="icon-book"></i> Documentation
+  #   url: http://en.maritlarsen.ml/
+  # - title: Categories
+  #   url: /categories
+  - title: Tags
+    url: /tags
+  - title: About
+    url: /about
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Asia/Shanghai
+future:      true
+highlighter: pygments
+markdown:    kramdown
+paginate:    6
+paginate_path: "page:num"
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers:
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "categories.html", "documentation.md"]
