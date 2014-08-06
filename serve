@@ -1,0 +1,2 @@
+rm -r /b/_site/
+jekyll serve -d /b/_site/ --config _config-local.yml
